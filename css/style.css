@@ -108,7 +108,7 @@ ul {
 .smart-tmip {
   background: url(../images/bg_02.png);
   background-size: cover;
-  height: 665px;
+  height: 800px;
 }
 
 .faxtor-score,
@@ -825,6 +825,9 @@ left: 15px;
     top: 21px;
   }
 
+  .smart-tmip {
+    height: 665px;
+  }
   .smart-tmip-text .smart-tmip-title {
     font-size: 28px;
   }
