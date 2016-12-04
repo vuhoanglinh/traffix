@@ -108,7 +108,7 @@ ul {
 .smart-tmip {
   background: url(../images/bg_02.png);
   background-size: cover;
-  height: 800px;
+  height: 665px;
 }
 
 .faxtor-score,
@@ -669,19 +669,20 @@ left: 15px;
 .smart-tmip-text .smart-tmip-title {
   font-family: 'AeroMaticsItalic', sans-serif;
   font-style: italic;
-  font-size: 42px;
+  font-size: 38px;
   color: #00afad;
 }
 .smart-tmip-text p {
   font-family: 'AeroMaticsLightRegular', sans-serif;
   color: #8ec9d9;
   font-size: 18px;
+  line-height: 1;
 }
 
 .smart-tmip-text .smart-tmip-details h3 {
   font-family: 'AeroMaticsLightItalic', sans-serif;
   font-style: italic;
-  font-size: 32px;
+  font-size: 28px;
   margin: 20px 0 40px 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(58, 101, 132, 0.5);
@@ -964,7 +965,7 @@ left: 15px;
     top: 21px;
   }
   .smart-tmip {
-    height: 635px;
+    height: 550px;
   }
   .smart-tmip-text .smart-tmip-title {
     font-size: 25px;
