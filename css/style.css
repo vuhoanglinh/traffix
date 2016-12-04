@@ -58,7 +58,7 @@ ul {
 .embed-banner {
   background: #a0d9e0 url(../images/embed-banner_0_02.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 200px;
 }
 
@@ -66,17 +66,18 @@ ul {
   font-family: 'AeroMaticsLightItalic', sans-serif;
   font-style: italic;
   color: #00ADAC;
-    margin-right: 375px;
+    margin-right: 400px;
     margin-left: 100px;
     text-align: right;
-    margin-top: 40px;
-  font-size: 20px;
+    margin-top: 35px;
+  font-size: 18px;
 
 }
 
 .embed-banner-text h3 {
   font-family: 'AeroMaticsItalic', sans-serif;
-  font-size: 28px;
+  font-size: 26px;
+  margin-bottom: 5px;
 }
 
 .faxtor-score {
@@ -777,6 +778,7 @@ left: 15px;
   .btn-box, .btn-active {
     font-size: 28px;
   }
+  
   .embed-message {
     padding: 15px 40px;
   }
@@ -900,6 +902,7 @@ left: 15px;
   }
   .embed-banner {
     background-position-x: -455px;
+    background-size: cover;
   }
   .embed-banner-text {
     margin-right: 325px;
@@ -907,7 +910,7 @@ left: 15px;
     font-size: 14px;
   }
   .embed-banner-text h3 {
-      font-size: 20px;
+      font-size: 21px;
   }
   .embed-message {
     padding: 15px 30px;
@@ -1046,6 +1049,9 @@ left: 15px;
     top: 0 !important;
     right: 0;
     width: 100%;
+  }
+  .embed-banner {
+    background-size: cover;
   }
   .embed-banner-text {
     margin-right: 20px;
@@ -1189,8 +1195,21 @@ left: 15px;
     float: left;
   }
 }
-
+@media only screen and (max-width: 736px){
+  .embed-banner {
+    background-position-x: -495px;
+  }
+  .embed-banner-text {
+    margin-right: 315px;
+  }
+}
 @media screen and (max-width: 640px){
+  .embed-banner {
+    background-position-x: -570px;
+  }
+  .embed-banner-text {
+    margin-right: 40px;
+  }
   .traffix-report-item,
   .brand-group,
   .traffix-report-action,
