@@ -1207,7 +1207,11 @@ left: 15px;
   .embed-banner-text {
     margin-right: 315px;
   }
+  .brand {
+    padding-top: 265px;
+  }
 }
+
 @media screen and (max-width: 640px){
   .embed-banner {
     background-position-x: -570px;
@@ -1328,5 +1332,8 @@ left: 15px;
   }
   .btn-box, .btn-active {
     font-size: 20px;
+  }
+  .brand {
+    padding-top: 170px;
   }
 }
